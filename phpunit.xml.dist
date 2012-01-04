@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<phpunit bootstrap="tests/TestInit.php"
+<phpunit bootstrap="tests/bootstrap.php"
          backupGlobals="false"
          backupStaticAttributes="false"
          strict="true"
@@ -22,7 +22,7 @@
 
   <filter>
     <whitelist addUncoveredFilesFromWhitelist="true">
-      <directory suffix=".php">lib</directory>
+      <directory suffix=".php">classes</directory>
     </whitelist>
   </filter>
 </phpunit>
