@@ -1,0 +1,1 @@
+# [![Build Status](https://secure.travis-ci.org/nergal/kohana-beanstalk.png)](https://secure.travis-ci.org/nergal/kohana-beanstalk/) Beanstalkd (Message Queue) Kohana adapter
